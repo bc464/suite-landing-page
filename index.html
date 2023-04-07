@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Suite landing page</title>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+<!-- Navigation -->
+  <div role="navigation" class="navbar">
+    <img src="./assets/logo.svg" alt="logo">
+    <button class="btn btn-navbar">Request Beta Access</button>
+  </div>
+<!-- Hero Section -->
+  <div role="banner" class="hero-section">
+    <div class="hero-boxes">
+      <div class="hero-box__left">
+        <div class="curved-line">
+          <img src="./assets/pattern-curved-line-1.svg" alt="curved line" class="curved-line-img_hero">
+        </div>
+        <div class="heading-section">
+          <h1>A <span>super solution</span><br>for your <span>business.</span></h1>
+          <p>Our marketing and sales automations help you scale your outreach to 
+          get more leads for your company. </p>
+          <button class="btn btn-hero">Request Beta Access</button>
+        </div>
+      </div>
+      <div class="hero-box__center">
+        <img src="./assets/image-hero-portrait.png" alt="hero-portrait" class="img-hero" >
+      </div>
+      <div class="hero-box__right">
+        <div class="companies">
+          <h2>2K+</h2>
+          <p>Companies</p>
+        </div>
+        <div class="languages">
+          <h2>8</h2>
+          <p>Languages</p>
+        </div>
+        <div class="leads">
+          <h2>1.2M</h2>
+          <p>Leads</p>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Main Section -->
+  <div role="main" class="main-section">
+    <div class="main-boxes">
+      <div class="main-left">
+        <picture>
+          <source media="(min-width: 1000px)" srcset="./assets/image-jeremy-large.png">
+          <source media="(min-width: 400px)" srcset="./assets/image-jeremy-small.png">
+          <source media="(max-width: 375px)" srcset="./assets/image-jeremy-small.png">
+          <img src="./assets/image-jeremy-small.png" alt="jeremy image" class="jeremy-img">
+        </picture>
+      </div>
+      <div class="curved-main">
+        <img src="./assets/pattern-curved-line-2.svg" alt="curved img">
+      </div>
+      <div class="main-right">
+        <h3>It just <span>works.</span></h3>
+        <p>“I really like how it is an all-in-one solution that handle many of 
+          the tasks that you would normally need separate tools to do the same 
+          job. This thing is a miracle worker.”
+        </p>
+        <div>
+          <h4>Jeremy Robinson</h4>
+          <p> CMO, Fylo</p>
+        </div>
+      </div>
+    </div>    
+  </div>
+<!-- Footer Section -->
+  <div role="contetninfo" class="footer-section">
+    <div class="footer-box">
+      <img src="./assets/logo.svg" alt="logo bottome">
+      <h5>Copyright - Suite</h5>
+      <div class="social">
+        <img src="./assets/icon-facebook.svg" alt="facebook" class="icon-social">
+        <img src="./assets/icon-twitter.svg" alt="twitter" class="icon-social">
+        <img src="./assets/icon-instagram.svg" alt="instagram" class="icon-social">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
